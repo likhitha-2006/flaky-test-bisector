@@ -1,0 +1,6 @@
+{
+    "iterations": 20,
+    "workers": 4,
+    "timeout": 60,
+    "random_seed": 42
+}

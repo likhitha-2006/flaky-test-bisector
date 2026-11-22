@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+.venv-linux/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Generated execution history
+execution_history/*
+!execution_history/.gitkeep
+
+# Generated reports
+reports/*
+!reports/.gitkeep
+
+# Temporary and backup files
+app_backup.py
+main_output.txt
+project_structure.txt
+project_structure_clean.txt
+
+# Sample project runtime state
+sample_repositories/flaky_project/.flaky_counter
